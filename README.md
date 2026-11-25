@@ -1,6 +1,6 @@
 # Baozi Store — Desenvolvimento Web Back-End
 
-API REST de clientes, produtos e pedidos. Java 21, Maven, Spring Boot, JPA e H2 persistente.
+API REST de clientes, produtos e pedidos. Java 21, Maven, Spring Boot, JPA e H2.
 
 ## Executar
 
@@ -11,10 +11,6 @@ A API usa http://localhost:8080. O banco é criado em data/baozi.mv.db.
 ## Postman
 
 Importe BaoziStore.postman_collection.json. Execute as 12 requisições na ordem da coleção. Os POST salvam os IDs automaticamente. Capture cada tela com método, URL, corpo (se aplicável), status e resposta. Faça os DELETE por último, na ordem pedido, produto, cliente. O status 204 não tem corpo.
-
-## Publicar
-
-Crie um repositório vazio no GitHub e siga as instruções de push exibidas. Não envie o banco local nem target/. Inclua o link real no relatório.
 
 ## Regras
 
